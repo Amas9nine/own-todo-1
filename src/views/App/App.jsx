@@ -13,9 +13,10 @@ export const App = () => {
   const [download, setDownload] = useState(true);
 
   useLayoutEffect(() => {
-    setTimeout(() => {
+    const timer = setTimeout(() => {
       setDownload(false)
     }, 3000)
+    return () => clearTimeout(timer)
   }, [])
 
   useLayoutEffect(() => {
