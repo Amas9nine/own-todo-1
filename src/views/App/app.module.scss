@@ -1,0 +1,25 @@
+.loader {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 50%;
+  }
+}
+
+.article {
+  box-sizing: border-box;
+  margin: 120px auto;
+  width: 600px;
+  border: 15px solid rgb(128, 255, 9);
+  background: blue;
+  color: white;
+  border-radius: 20px;
+  padding: 25px 50px 40px;
+
+  .p {
+    text-align: center;
+  }
+}

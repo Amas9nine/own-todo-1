@@ -1,0 +1,10 @@
+.inpitTask {
+  width: 100%;
+  border: 5px solid rgb(115, 255, 0);
+  display: grid;
+  grid-template-columns: 1fr 72% 12% 12%;
+
+  .checked {
+    text-decoration: line-through;
+  }
+}
